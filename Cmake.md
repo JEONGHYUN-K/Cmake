@@ -66,6 +66,7 @@ add_library(mylib utils.cpp)
 ## 6. まとめ
 用語	説明
 CMake	:  ビルド設定ファイルを生成するツール
+
 CMakeLists.txt  : 	CMakeの設定を書くファイル
 ビルド	ソースコードを実行ファイルに変換する処理
 
