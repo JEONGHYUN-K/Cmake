@@ -23,6 +23,8 @@ add_executable(MyApp main.cpp)       # 実行ファイル名とソースファ�
 ## 4. 使い方（簡単な流れ）
 プロジェクトのルートに CMakeLists.txt を作成する。
 
+
+
 ターミナル（コマンドプロンプト）でビルド用フォルダを作る：
 
 bash
@@ -30,18 +32,26 @@ bash
 編集する
 mkdir build
 cd build
+
+
 CMakeを実行してビルドシステムを生成：
 
 bash
 コピーする
 編集する
 cmake ..
+
+
 ビルドを行う（Makefileの場合）：
+
+
 
 bash
 コピーする
 編集する
 make
+
+
 実行ファイルが生成されるので実行：
 
 bash
@@ -57,6 +67,8 @@ cmake
 コピーする
 編集する
 add_executable(MyApp main.cpp utils.cpp)
+
+
 ライブラリを作るときは：
 
 cmake
